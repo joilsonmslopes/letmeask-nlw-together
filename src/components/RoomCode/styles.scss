@@ -28,3 +28,20 @@
     font-weight: 500;
   }
 }
+
+@media screen and (max-width: 568px) {
+  .room-code {
+    height: 35px;
+    margin-left: 0px;
+  
+    div {
+      padding: 0 8px;
+    }
+  
+    span {
+      padding: 0 12px 0 12px;
+      font-size: 11px;
+    }
+  }
+  
+}
