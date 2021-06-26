@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="GamePlay" height="80" title="Plant Manager" src="./src/assets/images/logo.svg" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![cover](./src/assets/images/letmeask-image.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Aplicação
 
-### `yarn start`
+Aplicação desenvolvida na NLW Together da Rocketseat, para criação de salas de Q&A para ser usado em lives, onde os usuários podem dar likes na perguntas que gostariam que fossem respondidades pela pessoa que está fazendo a live.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `yarn test`
+ - Autenticar com a conta do Google utilizando Firebase
+ - Obter informações usuário da conta Google (username e avatar)
+ - Usuário comum tem acesso a sala, podendo dar likes na própria pergunta e/ou de outros usuários
+ - Usuário que cria a sala tem acesso como admin e pode dar destaque na pergunta para mostrar que está respondendo a mesma, marcar a pergunta como respondida e remover pergunta
+ - Na sala de perguntas caso o usuário ainda não estiver conectado, pode se autenticar e manter na sala
+ - Usuário admin pode encerrar a sala
+ - função de copiar código tanto para usuário admin quanto para usuário comum.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+ ## Tecnologias
+- React
+- Typescript
+- Firebase (Autenticação e Realtime Database)
+- Context Api
+- Sass
+- Classnames
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Executando o projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
+Em seguida, inicie o projeto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+yarn start
+```
 
-### `yarn eject`
+Lembre-se de obter as credencias no Firabase e renomeie o arquivo .env.example para .env.local.
+ 
+ ```
+REACT_APP_API_KEY = ""
+REACT_APP_AUTH_DOMAIN = ""
+REACT_APP_DATABASE_URL = ""
+REACT_APP_PROJECT_ID = ""
+REACT_APP_STORAGE_BUCKET = ""
+REACT_APP_MESSAGING_SENDER_ID = ""
+REACT_APP_APP_ID = ""
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **Projeto desenvolvido por**
+[![Linkedin Badge](https://img.shields.io/badge/-Joilson%20M%20S%20Lopes-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/joilsonmslopes/)](https://www.linkedin.com/in/joilsonmslopes/) 
