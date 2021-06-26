@@ -51,4 +51,6 @@ REACT_APP_APP_ID = ""
 ```
 
 ### **Projeto desenvolvido por**
-[![Linkedin Badge](https://img.shields.io/badge/-Joilson%20M%20S%20Lopes-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/joilsonmslopes/)](https://www.linkedin.com/in/joilsonmslopes/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Joilson%20M%20S%20Lopes-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/joilsonmslopes/)](https://www.linkedin.com/school/rocketseat/)
+### **Projeto original**
+[![Linkedin Badge](https://img.shields.io/badge/-Rocketseat-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/joilsonmslopes/)](https://www.linkedin.com/in/joilsonmslopes/)
