@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="GamePlay" height="80" title="Plant Manager" src="./src/assets/images/logo.svg" />
+  <img alt="Letmeask" height="80" title="Letmeask" src="./src/assets/images/logo.svg" />
 </h1>
 
 ![cover](./src/assets/images/letmeask-image.png)
